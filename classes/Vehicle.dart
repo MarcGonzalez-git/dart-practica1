@@ -1,4 +1,4 @@
-import '../GPSLocation.dart';
+import '../utilitats/GPSLocation.dart';
 import 'User.dart';
 
 abstract class Vehicle with GPSLocation {
