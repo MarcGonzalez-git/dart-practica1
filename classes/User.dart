@@ -27,8 +27,8 @@ class User {
   }
 
   void recarregarSaldo(double quantitat) {
-      if(quantitat <= 0) {
-          throw ArgumentError("La quantitat ha de ser major que zero");
-      }
+    if(quantitat <= 0) {
+        throw ArgumentError("La quantitat ha de ser major que zero");
+    }
   }
 }
