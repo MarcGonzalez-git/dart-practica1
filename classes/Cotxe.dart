@@ -9,8 +9,8 @@ class Cotxe extends Vehicle {
 
   @override
   double calcularCostReserva(int minuts, User usuari) {
-      double suplementFiltreEcologic = 2.0;
-      double cost = (minuts * preuPerMinut) + suplementFiltreEcologic;
-      return cost;
+    double suplementFiltreEcologic = 2.0;
+    double cost = (minuts * preuPerMinut) + suplementFiltreEcologic;
+    return cost;
   }
 }
